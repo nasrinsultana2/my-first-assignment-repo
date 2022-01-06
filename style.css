@@ -136,3 +136,15 @@ h2{
     margin-top: -100px;
     z-index: 2;
 }
+.flexible-corona-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.corona-section-image{
+    width: 40%;
+    margin-left: -250px;
+}
+.last-text{
+    font-size: 16px;
+}
