@@ -14,10 +14,10 @@ h2{
 .Text{
     text-align: center;
 }
-.flexible-area{
+/* .flexible-area{
     display: flex;
     margin: 150px;
-}
+} */
 .flexible-item{
     display: flex;
 
@@ -26,15 +26,37 @@ h2{
     width: 33%;
     box-shadow: oldlace;
 }
-   
+.mission-flexible-area{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
 }
+
 .half-width{
-    width: 50%;
+    width: 40%;
 }
 .half-width img{
-    width:80%;
-    padding left: 10px;
+    width:60%;
+    padding-left: 10px;
+    margin-top: -150px;
 
+}
+.mission-head{
+    margin-top: -150px;
+    border-left: 3px solid tomato;
+    padding-left: 20px;
+    
+}
+.mission-head h1{
+    font-size: 50px;
+}
+.mission-head h2{
+    margin-top: -30px;
+    color: rgba(244, 248, 29, 0.849);
+    font-size: 40px;
+}
+.explore-btn{
+    margin-top: 50px;
 }
 .link-button{
     text-decoration: none;
@@ -42,13 +64,14 @@ h2{
     padding: 10px 30px;
     border-radius: 10px;
     color: white;
+    margin-top: 30px;
 }
 
 .centre{
     text-align: center;
 }
 .global-community{
-    background-image: url(images/background2.png);
+    /* background-image: url(images/background2.png); */
     background-repeat: no-repeat;
     background-position:right;
 }
@@ -68,10 +91,48 @@ h2{
     margin-right: 5%;
     padding-left: 10px;
     padding-right: 10px;
-
 }
+
 .width img{
     width: 40%;
-    padding-left: 10px;
+    padding: 10px;
+}
 
+.develop{
+    background-image: url(images/shape-1.png);
+}
+.Develop-section{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-around;
+}
+.develop-text{
+    margin-top: -150px;
+}
+.global-community{
+    display: flex;
+    margin-top: 250px;
+    justify-content: space-around;
+    background-size: 10%;
+}
+.gobla-img{
+    width: 5%;
+}
+.global-text{
+    margin-top: -200px;
+    margin-left: 50px;
+}
+.global-img{
+    position: relative;
+    width: 40%;
+    margin-top: -150px;
+    margin-left: 150px;
+    z-index: 99;
+}
+.circle-shape{
+    position: relative;
+    width: 20%;
+    margin-left:400px;
+    margin-top: -100px;
+    z-index: 2;
 }
