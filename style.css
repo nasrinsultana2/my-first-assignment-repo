@@ -8,9 +8,23 @@ h2{
 .NUJHAT{
  color: orange;
 }
+.color-nevy{
+    color: navy;
+}
+.Text{
+    text-align: center;
+}
 .flexible-area{
     display: flex;
     margin: 150px;
+}
+.flexible-item{
+    display: flex;
+
+}
+.h-width{
+    width: 33%;
+    box-shadow: oldlace;
 }
    
 }
@@ -29,11 +43,35 @@ h2{
     border-radius: 10px;
     color: white;
 }
-.mission{
-    background-image: url(images/shape-1.png);
-    background-position: right;
-    background-repeat: no-repeat;
-}
+
 .centre{
     text-align: center;
+}
+.global-community{
+    background-image: url(images/background2.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+    .final{
+        text-align: center;
+        background-color: black;
+    }
+    .color{
+        color: white;
+    }
+.width{
+    width: 25%;
+    box-shadow:10px 1opz 10px thistle;
+    border: solid;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.width img{
+    width: 40%;
+    padding-left: 10px;
+
 }
