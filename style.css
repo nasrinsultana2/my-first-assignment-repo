@@ -1,0 +1,39 @@
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
+.NUJHAT{
+ color: orange;
+}
+.flexible-area{
+    display: flex;
+    margin: 150px;
+}
+   
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width:80%;
+    padding left: 10px;
+
+}
+.link-button{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+}
+.mission{
+    background-image: url(images/shape-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.centre{
+    text-align: center;
+}
